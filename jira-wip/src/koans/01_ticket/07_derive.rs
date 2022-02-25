@@ -1,3 +1,4 @@
+#[derive(PartialEq)]
 /// Cool, we learned what a trait is and how to implement one.
 /// I am sure you agree with us though: implementing PartialEq was quite tedious
 /// and repetitive, a computer can surely do a better job without having to trouble us!
@@ -18,7 +19,6 @@
 /// ```
 ///
 /// PartialEq is not the only trait whose implementation can be derived automatically!
-#[derive(PartialEq)]
 pub enum Status {
     ToDo,
     InProgress,
